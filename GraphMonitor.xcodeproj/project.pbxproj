@@ -1,0 +1,1021 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		412718A92A7106EE00C53D3B /* GraphMonitorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412718A82A7106EE00C53D3B /* GraphMonitorApp.swift */; };
+		412718AB2A7106EE00C53D3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412718AA2A7106EE00C53D3B /* ContentView.swift */; };
+		412718AD2A7106F300C53D3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 412718AC2A7106F300C53D3B /* Assets.xcassets */; };
+		412718B02A7106F300C53D3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 412718AF2A7106F300C53D3B /* Preview Assets.xcassets */; };
+		412718BA2A7106F300C53D3B /* GraphMonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412718B92A7106F300C53D3B /* GraphMonitorTests.swift */; };
+		412718C42A7106F300C53D3B /* GraphMonitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412718C32A7106F300C53D3B /* GraphMonitorUITests.swift */; };
+		412718C62A7106F300C53D3B /* GraphMonitorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412718C52A7106F300C53D3B /* GraphMonitorUITestsLaunchTests.swift */; };
+		412718CC2A7106F300C53D3B /* GraphMonitor Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 412718CB2A7106F300C53D3B /* GraphMonitor Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		412718D12A7106F300C53D3B /* GraphMonitorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412718D02A7106F300C53D3B /* GraphMonitorApp.swift */; };
+		412718D32A7106F400C53D3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412718D22A7106F400C53D3B /* ContentView.swift */; };
+		412718D52A7106F600C53D3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 412718D42A7106F600C53D3B /* Assets.xcassets */; };
+		412718D82A7106F600C53D3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 412718D72A7106F600C53D3B /* Preview Assets.xcassets */; };
+		412718E22A7106F600C53D3B /* GraphMonitor_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412718E12A7106F600C53D3B /* GraphMonitor_Watch_AppTests.swift */; };
+		412718EC2A7106F600C53D3B /* GraphMonitor_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412718EB2A7106F600C53D3B /* GraphMonitor_Watch_AppUITests.swift */; };
+		412718EE2A7106F600C53D3B /* GraphMonitor_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412718ED2A7106F600C53D3B /* GraphMonitor_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		412718B62A7106F300C53D3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4127189D2A7106ED00C53D3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 412718A42A7106ED00C53D3B;
+			remoteInfo = GraphMonitor;
+		};
+		412718C02A7106F300C53D3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4127189D2A7106ED00C53D3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 412718A42A7106ED00C53D3B;
+			remoteInfo = GraphMonitor;
+		};
+		412718CD2A7106F300C53D3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4127189D2A7106ED00C53D3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 412718CA2A7106F300C53D3B;
+			remoteInfo = "GraphMonitor Watch App";
+		};
+		412718DE2A7106F600C53D3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4127189D2A7106ED00C53D3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 412718CA2A7106F300C53D3B;
+			remoteInfo = "GraphMonitor Watch App";
+		};
+		412718E82A7106F600C53D3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4127189D2A7106ED00C53D3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 412718CA2A7106F300C53D3B;
+			remoteInfo = "GraphMonitor Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		412718F42A7106F600C53D3B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				412718CC2A7106F300C53D3B /* GraphMonitor Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		412718A52A7106EE00C53D3B /* GraphMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		412718A82A7106EE00C53D3B /* GraphMonitorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphMonitorApp.swift; sourceTree = "<group>"; };
+		412718AA2A7106EE00C53D3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		412718AC2A7106F300C53D3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		412718AF2A7106F300C53D3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		412718B52A7106F300C53D3B /* GraphMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		412718B92A7106F300C53D3B /* GraphMonitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphMonitorTests.swift; sourceTree = "<group>"; };
+		412718BF2A7106F300C53D3B /* GraphMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		412718C32A7106F300C53D3B /* GraphMonitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphMonitorUITests.swift; sourceTree = "<group>"; };
+		412718C52A7106F300C53D3B /* GraphMonitorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphMonitorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		412718CB2A7106F300C53D3B /* GraphMonitor Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GraphMonitor Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		412718D02A7106F300C53D3B /* GraphMonitorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphMonitorApp.swift; sourceTree = "<group>"; };
+		412718D22A7106F400C53D3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		412718D42A7106F600C53D3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		412718D72A7106F600C53D3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		412718DD2A7106F600C53D3B /* GraphMonitor Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GraphMonitor Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		412718E12A7106F600C53D3B /* GraphMonitor_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphMonitor_Watch_AppTests.swift; sourceTree = "<group>"; };
+		412718E72A7106F600C53D3B /* GraphMonitor Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GraphMonitor Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		412718EB2A7106F600C53D3B /* GraphMonitor_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphMonitor_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		412718ED2A7106F600C53D3B /* GraphMonitor_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphMonitor_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		412718A22A7106ED00C53D3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412718B22A7106F300C53D3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412718BC2A7106F300C53D3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412718C82A7106F300C53D3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412718DA2A7106F600C53D3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412718E42A7106F600C53D3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4127189C2A7106ED00C53D3B = {
+			isa = PBXGroup;
+			children = (
+				412718A72A7106EE00C53D3B /* GraphMonitor */,
+				412718B82A7106F300C53D3B /* GraphMonitorTests */,
+				412718C22A7106F300C53D3B /* GraphMonitorUITests */,
+				412718CF2A7106F300C53D3B /* GraphMonitor Watch App */,
+				412718E02A7106F600C53D3B /* GraphMonitor Watch AppTests */,
+				412718EA2A7106F600C53D3B /* GraphMonitor Watch AppUITests */,
+				412718A62A7106EE00C53D3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		412718A62A7106EE00C53D3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				412718A52A7106EE00C53D3B /* GraphMonitor.app */,
+				412718B52A7106F300C53D3B /* GraphMonitorTests.xctest */,
+				412718BF2A7106F300C53D3B /* GraphMonitorUITests.xctest */,
+				412718CB2A7106F300C53D3B /* GraphMonitor Watch App.app */,
+				412718DD2A7106F600C53D3B /* GraphMonitor Watch AppTests.xctest */,
+				412718E72A7106F600C53D3B /* GraphMonitor Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		412718A72A7106EE00C53D3B /* GraphMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				412718A82A7106EE00C53D3B /* GraphMonitorApp.swift */,
+				412718AA2A7106EE00C53D3B /* ContentView.swift */,
+				412718AC2A7106F300C53D3B /* Assets.xcassets */,
+				412718AE2A7106F300C53D3B /* Preview Content */,
+			);
+			path = GraphMonitor;
+			sourceTree = "<group>";
+		};
+		412718AE2A7106F300C53D3B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				412718AF2A7106F300C53D3B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		412718B82A7106F300C53D3B /* GraphMonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				412718B92A7106F300C53D3B /* GraphMonitorTests.swift */,
+			);
+			path = GraphMonitorTests;
+			sourceTree = "<group>";
+		};
+		412718C22A7106F300C53D3B /* GraphMonitorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				412718C32A7106F300C53D3B /* GraphMonitorUITests.swift */,
+				412718C52A7106F300C53D3B /* GraphMonitorUITestsLaunchTests.swift */,
+			);
+			path = GraphMonitorUITests;
+			sourceTree = "<group>";
+		};
+		412718CF2A7106F300C53D3B /* GraphMonitor Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				412718D02A7106F300C53D3B /* GraphMonitorApp.swift */,
+				412718D22A7106F400C53D3B /* ContentView.swift */,
+				412718D42A7106F600C53D3B /* Assets.xcassets */,
+				412718D62A7106F600C53D3B /* Preview Content */,
+			);
+			path = "GraphMonitor Watch App";
+			sourceTree = "<group>";
+		};
+		412718D62A7106F600C53D3B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				412718D72A7106F600C53D3B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		412718E02A7106F600C53D3B /* GraphMonitor Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				412718E12A7106F600C53D3B /* GraphMonitor_Watch_AppTests.swift */,
+			);
+			path = "GraphMonitor Watch AppTests";
+			sourceTree = "<group>";
+		};
+		412718EA2A7106F600C53D3B /* GraphMonitor Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				412718EB2A7106F600C53D3B /* GraphMonitor_Watch_AppUITests.swift */,
+				412718ED2A7106F600C53D3B /* GraphMonitor_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "GraphMonitor Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		412718A42A7106ED00C53D3B /* GraphMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 412718F52A7106F600C53D3B /* Build configuration list for PBXNativeTarget "GraphMonitor" */;
+			buildPhases = (
+				412718A12A7106ED00C53D3B /* Sources */,
+				412718A22A7106ED00C53D3B /* Frameworks */,
+				412718A32A7106ED00C53D3B /* Resources */,
+				412718F42A7106F600C53D3B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				412718CE2A7106F300C53D3B /* PBXTargetDependency */,
+			);
+			name = GraphMonitor;
+			productName = GraphMonitor;
+			productReference = 412718A52A7106EE00C53D3B /* GraphMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		412718B42A7106F300C53D3B /* GraphMonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 412718F82A7106F600C53D3B /* Build configuration list for PBXNativeTarget "GraphMonitorTests" */;
+			buildPhases = (
+				412718B12A7106F300C53D3B /* Sources */,
+				412718B22A7106F300C53D3B /* Frameworks */,
+				412718B32A7106F300C53D3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				412718B72A7106F300C53D3B /* PBXTargetDependency */,
+			);
+			name = GraphMonitorTests;
+			productName = GraphMonitorTests;
+			productReference = 412718B52A7106F300C53D3B /* GraphMonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		412718BE2A7106F300C53D3B /* GraphMonitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 412718FB2A7106F600C53D3B /* Build configuration list for PBXNativeTarget "GraphMonitorUITests" */;
+			buildPhases = (
+				412718BB2A7106F300C53D3B /* Sources */,
+				412718BC2A7106F300C53D3B /* Frameworks */,
+				412718BD2A7106F300C53D3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				412718C12A7106F300C53D3B /* PBXTargetDependency */,
+			);
+			name = GraphMonitorUITests;
+			productName = GraphMonitorUITests;
+			productReference = 412718BF2A7106F300C53D3B /* GraphMonitorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		412718CA2A7106F300C53D3B /* GraphMonitor Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 412718F12A7106F600C53D3B /* Build configuration list for PBXNativeTarget "GraphMonitor Watch App" */;
+			buildPhases = (
+				412718C72A7106F300C53D3B /* Sources */,
+				412718C82A7106F300C53D3B /* Frameworks */,
+				412718C92A7106F300C53D3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GraphMonitor Watch App";
+			productName = "GraphMonitor Watch App";
+			productReference = 412718CB2A7106F300C53D3B /* GraphMonitor Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		412718DC2A7106F600C53D3B /* GraphMonitor Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 412718FE2A7106F600C53D3B /* Build configuration list for PBXNativeTarget "GraphMonitor Watch AppTests" */;
+			buildPhases = (
+				412718D92A7106F600C53D3B /* Sources */,
+				412718DA2A7106F600C53D3B /* Frameworks */,
+				412718DB2A7106F600C53D3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				412718DF2A7106F600C53D3B /* PBXTargetDependency */,
+			);
+			name = "GraphMonitor Watch AppTests";
+			productName = "GraphMonitor Watch AppTests";
+			productReference = 412718DD2A7106F600C53D3B /* GraphMonitor Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		412718E62A7106F600C53D3B /* GraphMonitor Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 412719012A7106F600C53D3B /* Build configuration list for PBXNativeTarget "GraphMonitor Watch AppUITests" */;
+			buildPhases = (
+				412718E32A7106F600C53D3B /* Sources */,
+				412718E42A7106F600C53D3B /* Frameworks */,
+				412718E52A7106F600C53D3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				412718E92A7106F600C53D3B /* PBXTargetDependency */,
+			);
+			name = "GraphMonitor Watch AppUITests";
+			productName = "GraphMonitor Watch AppUITests";
+			productReference = 412718E72A7106F600C53D3B /* GraphMonitor Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4127189D2A7106ED00C53D3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					412718A42A7106ED00C53D3B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					412718B42A7106F300C53D3B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 412718A42A7106ED00C53D3B;
+					};
+					412718BE2A7106F300C53D3B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 412718A42A7106ED00C53D3B;
+					};
+					412718CA2A7106F300C53D3B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					412718DC2A7106F600C53D3B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 412718CA2A7106F300C53D3B;
+					};
+					412718E62A7106F600C53D3B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 412718CA2A7106F300C53D3B;
+					};
+				};
+			};
+			buildConfigurationList = 412718A02A7106ED00C53D3B /* Build configuration list for PBXProject "GraphMonitor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4127189C2A7106ED00C53D3B;
+			productRefGroup = 412718A62A7106EE00C53D3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				412718A42A7106ED00C53D3B /* GraphMonitor */,
+				412718B42A7106F300C53D3B /* GraphMonitorTests */,
+				412718BE2A7106F300C53D3B /* GraphMonitorUITests */,
+				412718CA2A7106F300C53D3B /* GraphMonitor Watch App */,
+				412718DC2A7106F600C53D3B /* GraphMonitor Watch AppTests */,
+				412718E62A7106F600C53D3B /* GraphMonitor Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		412718A32A7106ED00C53D3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412718B02A7106F300C53D3B /* Preview Assets.xcassets in Resources */,
+				412718AD2A7106F300C53D3B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412718B32A7106F300C53D3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412718BD2A7106F300C53D3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412718C92A7106F300C53D3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412718D82A7106F600C53D3B /* Preview Assets.xcassets in Resources */,
+				412718D52A7106F600C53D3B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412718DB2A7106F600C53D3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412718E52A7106F600C53D3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		412718A12A7106ED00C53D3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412718AB2A7106EE00C53D3B /* ContentView.swift in Sources */,
+				412718A92A7106EE00C53D3B /* GraphMonitorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412718B12A7106F300C53D3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412718BA2A7106F300C53D3B /* GraphMonitorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412718BB2A7106F300C53D3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412718C62A7106F300C53D3B /* GraphMonitorUITestsLaunchTests.swift in Sources */,
+				412718C42A7106F300C53D3B /* GraphMonitorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412718C72A7106F300C53D3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412718D32A7106F400C53D3B /* ContentView.swift in Sources */,
+				412718D12A7106F300C53D3B /* GraphMonitorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412718D92A7106F600C53D3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412718E22A7106F600C53D3B /* GraphMonitor_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412718E32A7106F600C53D3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412718EE2A7106F600C53D3B /* GraphMonitor_Watch_AppUITestsLaunchTests.swift in Sources */,
+				412718EC2A7106F600C53D3B /* GraphMonitor_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		412718B72A7106F300C53D3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 412718A42A7106ED00C53D3B /* GraphMonitor */;
+			targetProxy = 412718B62A7106F300C53D3B /* PBXContainerItemProxy */;
+		};
+		412718C12A7106F300C53D3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 412718A42A7106ED00C53D3B /* GraphMonitor */;
+			targetProxy = 412718C02A7106F300C53D3B /* PBXContainerItemProxy */;
+		};
+		412718CE2A7106F300C53D3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 412718CA2A7106F300C53D3B /* GraphMonitor Watch App */;
+			targetProxy = 412718CD2A7106F300C53D3B /* PBXContainerItemProxy */;
+		};
+		412718DF2A7106F600C53D3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 412718CA2A7106F300C53D3B /* GraphMonitor Watch App */;
+			targetProxy = 412718DE2A7106F600C53D3B /* PBXContainerItemProxy */;
+		};
+		412718E92A7106F600C53D3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 412718CA2A7106F300C53D3B /* GraphMonitor Watch App */;
+			targetProxy = 412718E82A7106F600C53D3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		412718EF2A7106F600C53D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		412718F02A7106F600C53D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		412718F22A7106F600C53D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GraphMonitor Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = NG9A57B5VW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GraphMonitor;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = shirane.GraphMonitor;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shirane.GraphMonitor.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.7;
+			};
+			name = Debug;
+		};
+		412718F32A7106F600C53D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GraphMonitor Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = NG9A57B5VW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GraphMonitor;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = shirane.GraphMonitor;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shirane.GraphMonitor.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.7;
+			};
+			name = Release;
+		};
+		412718F62A7106F600C53D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GraphMonitor/Preview Content\"";
+				DEVELOPMENT_TEAM = NG9A57B5VW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GraphMonitor;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shirane.GraphMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		412718F72A7106F600C53D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GraphMonitor/Preview Content\"";
+				DEVELOPMENT_TEAM = NG9A57B5VW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GraphMonitor;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shirane.GraphMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		412718F92A7106F600C53D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NG9A57B5VW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shirane.GraphMonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraphMonitor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GraphMonitor";
+			};
+			name = Debug;
+		};
+		412718FA2A7106F600C53D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NG9A57B5VW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shirane.GraphMonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraphMonitor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GraphMonitor";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		412718FC2A7106F600C53D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NG9A57B5VW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shirane.GraphMonitorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GraphMonitor;
+			};
+			name = Debug;
+		};
+		412718FD2A7106F600C53D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NG9A57B5VW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shirane.GraphMonitorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GraphMonitor;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		412718FF2A7106F600C53D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NG9A57B5VW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shirane.GraphMonitor-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraphMonitor Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GraphMonitor Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.7;
+			};
+			name = Debug;
+		};
+		412719002A7106F600C53D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NG9A57B5VW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shirane.GraphMonitor-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraphMonitor Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GraphMonitor Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.7;
+			};
+			name = Release;
+		};
+		412719022A7106F600C53D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NG9A57B5VW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shirane.GraphMonitor-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "GraphMonitor Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.7;
+			};
+			name = Debug;
+		};
+		412719032A7106F600C53D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NG9A57B5VW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shirane.GraphMonitor-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "GraphMonitor Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.7;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		412718A02A7106ED00C53D3B /* Build configuration list for PBXProject "GraphMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				412718EF2A7106F600C53D3B /* Debug */,
+				412718F02A7106F600C53D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		412718F12A7106F600C53D3B /* Build configuration list for PBXNativeTarget "GraphMonitor Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				412718F22A7106F600C53D3B /* Debug */,
+				412718F32A7106F600C53D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		412718F52A7106F600C53D3B /* Build configuration list for PBXNativeTarget "GraphMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				412718F62A7106F600C53D3B /* Debug */,
+				412718F72A7106F600C53D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		412718F82A7106F600C53D3B /* Build configuration list for PBXNativeTarget "GraphMonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				412718F92A7106F600C53D3B /* Debug */,
+				412718FA2A7106F600C53D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		412718FB2A7106F600C53D3B /* Build configuration list for PBXNativeTarget "GraphMonitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				412718FC2A7106F600C53D3B /* Debug */,
+				412718FD2A7106F600C53D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		412718FE2A7106F600C53D3B /* Build configuration list for PBXNativeTarget "GraphMonitor Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				412718FF2A7106F600C53D3B /* Debug */,
+				412719002A7106F600C53D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		412719012A7106F600C53D3B /* Build configuration list for PBXNativeTarget "GraphMonitor Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				412719022A7106F600C53D3B /* Debug */,
+				412719032A7106F600C53D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4127189D2A7106ED00C53D3B /* Project object */;
+}
